@@ -19,8 +19,8 @@ public class RunManager {
 	public static void main(String[] args) {
 		// 1. 콘솔 입력
 		Scanner sc = new Scanner(System.in);
-        String inputVal = sc.nextLine();
-        int limitVal = Integer.parseInt(inputVal);
+        	String inputVal = sc.nextLine();
+        	int limitVal = Integer.parseInt(inputVal);
         
 		// 2. 파일 읽고 쓰기 
 		List<String> monitoringList = readFile(MONITORING);
